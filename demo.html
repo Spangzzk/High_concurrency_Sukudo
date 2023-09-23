@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>数独</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<div id="button" align="center">
+  <button>难度：</button>
+  <select id="selection">
+    <option value="option1">简单</option>
+    <option value="option2">中等</option>
+    <option value="option3">困难</option>
+  </select>
+  <button type="button" onclick="startConcurrentSudoku()" id="b2">生成按钮</button>
+  <button type="button" onclick="solve()" id="b3">显示/隐藏(答案)</button>
+</div>
+<table id="outside" align="center" contenteditable="true"></table>
+<script src="demo.js"></script>
+</body>
+</html>
+
+
